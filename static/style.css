@@ -1,0 +1,35 @@
+*{
+  box-sizing:border-box;
+}
+
+h1{
+  text-align: center;
+  background-color:#005ef7;
+  color:#fff;
+  padding:40px;
+
+}
+.row{
+  margin-top: 70px;
+  margin-left: 10px;
+}
+#predict{
+  margin-top:20px;
+  padding:10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 40%;
+  width:20%;
+  margin-bottom: 20px;
+}
+.column{
+  margin-left:35%;
+  margin-top:40px;
+}
+h3{
+text-align: center;
+margin-top:70px;
+background-color:#005ef7;
+padding:30px;
+color:#fff; 
+}
