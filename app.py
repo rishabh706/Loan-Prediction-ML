@@ -72,8 +72,8 @@ def predict():
 
     dataset = dataset[['Term','Credit Score','Annual Income','Years in current job',
     'Home Ownership','Purpose','Monthly Debt','Years of Credit History','Number of Open Accounts','Number of Credit Problems','Current Credit Balance','Maximum Open Credit','Tax Liens']]          
-    clf = pickle.load(open('catboost.pkl', 'rb'))
-    classifier=clf.predict_proba(dataset)
+    model = pickle.load(open('model.pkl', 'rb'))
+    classifier=model.predict_proba(dataset)
     predictions = [item for sublist in classifier for item in sublist]
     colors = ['#1f77b4','#ff7f0e']
     loan_status = ['Charged Off','Fully Paid']
