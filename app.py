@@ -8,10 +8,9 @@ from bokeh.plotting import figure
 from bokeh.transform import factor_cmap
 from bokeh.embed import components
 # Loading the model
-clf=pickle.load(open('catboost.pkl','rb'))
-
-
 app=Flask(__name__)
+
+clf = pickle.load(open('catboost.pkl', 'rb'))
 
 @app.route('/')
 
