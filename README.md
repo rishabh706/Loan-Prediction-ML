@@ -21,4 +21,4 @@ Developed a Machine learning model for loan repayment.
 
 [![Capture2.png](https://i.postimg.cc/yYJB0wwW/Capture2.png)](https://postimg.cc/6yNDX16N)
 
-https://rishabh-third-test-app.herokuapp.com/
+Link to Project: https://rishabh-third-test-app.herokuapp.com/
